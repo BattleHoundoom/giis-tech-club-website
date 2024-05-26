@@ -13,14 +13,6 @@ const people = [
     image:
       "/tech_club.jpg",
       email:"support@giistech.club"
-  },
-  {
-    id: 2,
-    name: "Alden Antony",
-    designation: "Head of Web Development",
-    image:
-      "/tech_club.jpg",
-      email:"alden.thalachira@gmail.com"
   }
 ];
 
