@@ -1,7 +1,7 @@
 "use client";
-import React, { useState } from "react";
-import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
+import { motion } from "framer-motion";
+import React, { useState } from "react";
 
 export const PinContainer = ({
   children,
@@ -30,7 +30,7 @@ export const PinContainer = ({
   return (
     <div
       className={cn(
-        "relative group/pin z-50  cursor-pointer",
+        "relative group/pin z-50",
         containerClassName
       )}
       onMouseEnter={onMouseEnter}

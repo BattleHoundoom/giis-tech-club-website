@@ -1,9 +1,8 @@
 "use client";
-import Image from "next/image";
-import React from "react";
-import SectionHeading from "./section-heading";
-import { useSectionInView } from "@/lib/hooks";
 import { PinContainer } from "@/components/ui/3d-pin";
+import { useSectionInView } from "@/lib/hooks";
+import Image from "next/image";
+import SectionHeading from "./section-heading";
 
 export default function Projects() {
   const { ref } = useSectionInView("Partnerships");
@@ -24,7 +23,9 @@ export default function Projects() {
               <span className="text-slate-500 ">
                 Hack Club is a global nonprofit network of high school coding
                 clubs. It aims to empower students to become makers and leaders
-                through coding, entrepreneurship, and creativity.
+                through coding, entrepreneurship, and creativity. GIIS Tech Club 
+                (Global Indian International School) is fiscally sponsored by The 
+                Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).
               </span>
             </div>
             <Image
