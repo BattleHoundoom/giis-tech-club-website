@@ -1,13 +1,13 @@
 "use client";
-import Image from "next/image";
-import React, { useState } from "react";
 import {
-  motion,
-  useTransform,
   AnimatePresence,
+  motion,
   useMotionValue,
   useSpring,
+  useTransform,
 } from "framer-motion";
+import Image from "next/image";
+import { useState } from "react";
 
 export const AnimatedTooltip = ({
   items,
@@ -42,7 +42,7 @@ export const AnimatedTooltip = ({
     <>
       {items.map((item, idx) => (
         <div
-          className="-mr-4  relative group"
+          className="relative group"
           key={item.name}
           onMouseEnter={() => setHoveredIndex(item.id)}
           onMouseLeave={() => setHoveredIndex(null)}
